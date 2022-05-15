@@ -1,32 +1,48 @@
-export type RootStackParamList = {
-    Welcome: undefined;
-    Questions: undefined;
-    Results: undefined;
-  };
-  
-  export type QuestionResult = {
-    data: Array<Question>;
-    loading: boolean;
-  };
-  
-  export interface Question {
-    correctAnswer: number;
-    text: string;
-    answers: Answer[];
-  }
-  
-  export interface Answer {
-    number: number;
-    text: string;
-    answer: string;
-    isCorrect: boolean;
-  }
-  
-  export interface AppState {
-    answerList?: Answer[];
-  }
-  
-  export interface AppAction {
-    type: string;
-    payload: { answerList: Answer[] };
-  }
+export interface AppState {
+  pokemons: Pokemon[];
+  isLoading: boolean;
+  isStarting: boolean;
+  offset: number;
+  limit: number;
+  total: number;
+  pokemonSelected: Pokemon;
+}
+
+export interface Pokemon {
+  name: string;
+  url: string;
+  information: Information;
+}
+
+export interface Information {
+  id: number;
+  abilities: Ability[];
+  base_experience: number;
+  height: number;
+  name: string;
+  order: number;
+  weight: number;
+  sprites: Sprites;
+  moves: Move[];
+}
+
+export interface Move {
+  name: string;
+  url: string;
+}
+
+export interface Ability {
+  name: string;
+  url: string;
+}
+
+export interface Sprites {
+  back_default: string;
+  back_female: string;
+  back_shiny: string;
+  back_shiny_female: string;
+  front_default: string;
+  front_female: string;
+  front_shiny: string;
+  front_shiny_female: string;
+}
