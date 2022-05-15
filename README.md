@@ -1,46 +1,118 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://res.cloudinary.com/dbdwnf12i/image/upload/v1652590471/jpojgldcnzseerqbme2t.png" alt="Logo" width="80" height="80">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Pokemon App</h3>
 
-## Available Scripts
+  <p align="center">
+    Prueba técnica - Neww
+    <br />
+    <a href="https://jaimeferreira11.github.io/newe-poke-app/">Ver Demo</a>
+  </p>
+</p>
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Tabla de contenido</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Sobre el proyecto</a>
+      <ul>
+        <li><a href="#built-with">Construído con</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Primeros pasos</a>
+      <ul>
+        <li><a href="#prerequisites">Pre-requisitos</a></li>
+        <li><a href="#installation">Instalación</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Uso</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
 
-### `npm start`
+## Sobre el proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![Product Name Screen Shot][product-screenshot]](https://res.cloudinary.com/dbdwnf12i/image/upload/v1652591407/urx3qo5iefi4vnhysplk.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para esta prueba, tienes que llamar a la Pokeapi: https://pokeapi.co/api/v2/pokemon?limit=10&offset=10
 
-### `npm test`
+- Tendrás que pasarle el límite de datos, que en este caso siempre van a ser 10, y el offset, el cual empieza en 10.
+- La primera vez que entramos en la web, tenemos un botón al cual tendremos que darle para cargar todos los Pokemon.
+- Cada vez que le demos click a ese botón, tendremos que volver a cargar los 10 primeros Pokemon.
+- Tras darle click, cargamos todos los Pokemon y los mostramos en tarjetas. Estas tarjetas pueden tener el diseño que tú quieras y puedes mostrar cualquier dato, pero los movimientos, el nombre y el Sprite (la imagen) tienen que salir en la tarjeta.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Puedes dejar volar tu imaginación, y usar otro formato más original para mostrar los datos.
+- La imagen es solo un ejemplo, seguro que puedes hacer que tenga un estilo más chulo :)
+- Después, tendrás que poner un paginado como este:- Tendrás que hacer que funcione, sacando los 10 antes o los 10 siguientes Pokemon, pero ojo si estamos en la primera o en la última página.
+- Al darle al botón del principio, tenemos que resetear el paginado
 
-### `npm run build`
+Made in react using parcel as bundler.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esta sería la prueba, pero puedes hacer tareas extra para ganar mas puntos (No es necesario tener hechas todas las tareas para que consideremos la prueba como buena)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Bonus:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Usar Typescript ✅
+- Configurar un Linter (Eslint, standard... el que tu quieras) ✅
+- Hacer un diseño responsive ✅
+- Usar la arquitectura de Atomic Design
+- Usar MaterialUI
+- ¿Crees que se puede aplicar TDD en este proyecto? Si es así puedes usar librerías como jest, cypress… para hacer estos tests
+- Puedes añadir funcionalidades que no hayamos descrito pero que consideres interesantes ✅
 
-### `npm run eject`
+### Counstruído con
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React](https://reactjs.org/)
+- [Create-react-app](https://create-react-app.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwindcss](https://tailwindcss.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Primeros Pasos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- yarn or npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clonar el repositorio
+   ```sh
+   git clone https://github.com/jaimeferreira11/newe-poke-app.git
+   ```
+2. Instalar paquetes yarn/NPM
+   ```sh
+   yarn / npm install
+   ```
+
+<!-- USAGE EXAMPLES -->
+
+## Uso
+
+Ejecutar localmente
+
+```sh
+   yarn / npm start
+```
+
+Construir
+
+```sh
+   yarn / npm build
+```
+
+## Contacto
+
+Jaime Ferreira- jaimeferreira11@gmail.com
+
+[Linkedin](https://www.linkedin.com/in/jaimeferreira91/)
+
+Project Link: [https://github.com/jaimeferreira11/newe-poke-app](https://github.com/jaimeferreira11/newe-poke-app)
+
+[product-screenshot]: https://res.cloudinary.com/dbdwnf12i/image/upload/v1652591407/urx3qo5iefi4vnhysplk.png

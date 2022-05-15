@@ -2,7 +2,6 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
-import NotFoundImg from "../../assets/not_found.png";
 import { setReset } from "../../reducers/appSlice";
 import { Navbar } from "../shared/Navbar";
 
@@ -33,7 +32,9 @@ export const NotFound = () => {
         </Link>
         <img
           className="w-44 md:w-80 lg:w-96"
-          src={NotFoundImg}
+          src={
+            "https://res.cloudinary.com/dbdwnf12i/image/upload/v1652590472/igjwziwqaciipwdd2kcu.png"
+          }
           alt="Not found Pokemon"
         />
       </div>
