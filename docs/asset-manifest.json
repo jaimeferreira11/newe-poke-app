@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f1bd0d2.css",
-    "main.js": "/static/js/main.2286faa7.js",
-    "static/media/not_found.png": "/static/media/not_found.f6856aed8031d3006963.png",
-    "static/media/logo.png": "/static/media/logo.f4d8bff0cdc9193c28c4.png",
-    "index.html": "/index.html",
-    "main.1f1bd0d2.css.map": "/static/css/main.1f1bd0d2.css.map",
-    "main.2286faa7.js.map": "/static/js/main.2286faa7.js.map"
+    "main.css": "/newe-poke-app/static/css/main.1f1bd0d2.css",
+    "main.js": "/newe-poke-app/static/js/main.ed0a00b7.js",
+    "static/media/logo.png": "/newe-poke-app/static/media/logo.f4d8bff0cdc9193c28c4.png",
+    "index.html": "/newe-poke-app/index.html",
+    "main.1f1bd0d2.css.map": "/newe-poke-app/static/css/main.1f1bd0d2.css.map",
+    "main.ed0a00b7.js.map": "/newe-poke-app/static/js/main.ed0a00b7.js.map"
   },
   "entrypoints": [
     "static/css/main.1f1bd0d2.css",
-    "static/js/main.2286faa7.js"
+    "static/js/main.ed0a00b7.js"
   ]
 }
